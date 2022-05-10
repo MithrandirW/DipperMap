@@ -59,10 +59,7 @@ const AppHeader: React.FC = () => {
     <>
       <div className={styles.appHeader}>
         <a href={HOME_PAGE_URL} target="_blank" rel="noreferrer">
-          <img
-            src="https://gw.alipayobjects.com/mdn/rms_e7e1c6/afts/img/A*95whQ7WhQBIAAAAAAAAAAAAAARQnAQ"
-            alt=""
-          />
+          <img src="" alt="" />
         </a>
         <div className={styles.appHeaderBtnGroup}>
           <Dropdown

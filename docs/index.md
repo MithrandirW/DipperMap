@@ -8,21 +8,15 @@ nav:
 
 ## 快速开始
 
-本篇文档将介绍通过的几步配置，快速在 `Dipper-Map` 地图可视化工具中导入数据并配置图层，最终在地图上呈现出地理数据的可视化展示效果。
+本篇文档将介绍通过的几步配置，快速在 `GIS` 地图可视化工具中导入数据并配置图层，最终在地图上呈现出地理数据的可视化展示效果。
 
 ### 添加数据源
 
 - 点击左上角数据源面板右侧的 `+` 按钮，弹出添加数据源的弹框。
 
-<img src="https://gw.alipayobjects.com/mdn/rms_e7e1c6/afts/img/A*O330SIHddhgAAAAAAAAAAAAAARQnAQ" width=256 />
-
 - 当前导入数据文件有两种方式： **文件链接** 和 **文件上传**。_若通过文件链接导入文件，文件链接需要支持跨域请求。_
 
-<img src="https://gw.alipayobjects.com/mdn/rms_e7e1c6/afts/img/A*FQn-RqusYfoAAAAAAAAAAAAAARQnAQ" width=512 />
-
 - 数据源新建成功后，数据源面板将会展示相应新增数据源。
-
-<img src="https://gw.alipayobjects.com/mdn/rms_e7e1c6/afts/img/A*uNanQ733lIYAAAAAAAAAAAAAARQnAQ" width='300' />
 
 _PS：可以点击下图按钮，跳转并选择示例数据，快速体验_ `Dipper-Map` _的可视化功能。_
 
@@ -31,8 +25,6 @@ _PS：可以点击下图按钮，跳转并选择示例数据，快速体验_ `Di
 ### 选中数据源
 
 通过点击选中待操作的数据源，只有选中数据源的状态下，才能添加**图层**/**筛选器**/**交互**。
-
-<img src="https://gw.alipayobjects.com/mdn/rms_e7e1c6/afts/img/A*gmNdSoF1y6kAAAAAAAAAAAAAARQnAQ" width='300' />
 
 ### 图层配置
 

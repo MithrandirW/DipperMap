@@ -1,10 +1,9 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  title: 'Dipper-Map',
-  favicon:
-    'https://gw.alipayobjects.com/mdn/rms_e7e1c6/afts/img/A*v_NzR4sELEEAAAAAAAAAAAAAARQnAQ',
-  logo: 'https://gw.alipayobjects.com/mdn/rms_e7e1c6/afts/img/A*v_NzR4sELEEAAAAAAAAAAAAAARQnAQ',
+  title: 'GIS',
+  favicon: '.src/xm.jpg',
+  logo: '.src/xm.jpg',
   outputPath: 'docs-dist',
   plugins: [],
   mode: 'site',
@@ -14,29 +13,6 @@ export default defineConfig({
       path: '/',
       children: ['/index.md'],
     },
-    {
-      title: '可视化工具',
-      path: 'https://dippermap.alipay.com/#/demo',
-    },
-    {
-      title: '生态',
-      children: [
-        {
-          title: 'L7',
-          path: 'https://l7.antv.vision/',
-        },
-        {
-          title: 'L7 Plot',
-          path: 'https://l7plot.surge.sh//',
-        },
-        {
-          title: 'Dipper',
-          path: 'https://antv.vision/Dipper/',
-        },
-      ],
-    },
-    { title: '官方网站', path: 'https://dippermap.alipay.com/' },
-    { title: 'GitHub', path: 'https://github.com/antvis/DipperMap' },
   ],
   // mfsu: {},
   workerLoader: {
@@ -44,8 +20,8 @@ export default defineConfig({
   },
   headScripts: ["localStorage.setItem('dumi:prefers-color', 'dark')"],
   styles: ['.__dumi-default-navbar-tool { display: none !important; }'],
-  publicPath: '/DipperMap/',
-  base: '/DipperMap/',
+  publicPath: '/GIS/',
+  base: '/GIS/',
   antd: {
     dark: true,
   },

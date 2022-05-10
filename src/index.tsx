@@ -24,11 +24,11 @@ const DipperMap: React.FC<IGlobalProps> = (props) => {
       // @ts-ignore
       getPopupContainer={() => containerDOM || document.body}
     >
-      <PropContextProvider value={props}>
-        <ContextProvider>
-          <MapContainer />
-        </ContextProvider>
-      </PropContextProvider>
+      {/*<PropContextProvider value={props}>*/}
+      {/*  <ContextProvider>*/}
+      {/*    <MapContainer />*/}
+      {/*  </ContextProvider>*/}
+      {/*</PropContextProvider>*/}
     </ConfigProvider>
   );
 };

@@ -2,8 +2,8 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   title: 'GIS',
-  favicon: '.src/xm.jpg',
-  logo: '.src/xm.jpg',
+  favicon: '.src/assets/imgs/logo.png',
+  logo: '.src/assets/imgs/logo.png',
   outputPath: 'docs-dist',
   plugins: [],
   mode: 'site',

@@ -15,6 +15,8 @@ const DipperMap: React.FC<IGlobalProps> = (props) => {
     setContainerDOM(document.querySelector(`.${styles.container}`) || null);
   });
 
+  // @ts-ignore
+  // @ts-ignore
   return (
     <ConfigProvider
       locale={zhCN}
@@ -24,11 +26,11 @@ const DipperMap: React.FC<IGlobalProps> = (props) => {
       // @ts-ignore
       getPopupContainer={() => containerDOM || document.body}
     >
-      {/*<PropContextProvider value={props}>*/}
-      {/*  <ContextProvider>*/}
-      {/*    <MapContainer />*/}
-      {/*  </ContextProvider>*/}
-      {/*</PropContextProvider>*/}
+      <PropContextProvider value={props}>
+        <ContextProvider>
+          <MapContainer />
+        </ContextProvider>
+      </PropContextProvider>
     </ConfigProvider>
   );
 };
